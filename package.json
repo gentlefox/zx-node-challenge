@@ -1,0 +1,36 @@
+{
+  "name": "zx-node-challenge",
+  "version": "1.0.0",
+  "description": "Node Challenge for ZX Ventures",
+  "main": "index.js",
+  "test": "jest",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "csv-stream": "^0.2.0",
+    "dotenv": "^7.0.0",
+    "event-stream": "^4.0.1",
+    "faker": "^4.1.0",
+    "fs-extra": "^7.0.1",
+    "pg": "^7.10.0",
+    "pg-copy-streams": "^2.2.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gentlefox/zx-node-challenge.git"
+  },
+  "keywords": [
+    "node",
+    "csv",
+    "pg",
+    "bulk-data-import"
+  ],
+  "author": "Greg Arnott <greg.arnott@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gentlefox/zx-node-challenge/issues"
+  },
+  "homepage": "https://github.com/gentlefox/zx-node-challenge#readme"
+}
